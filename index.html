@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="SpeakIzy">
+	<head>
+		<title>Speak Izy</title>
+
+		<meta charset="utf-8">
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+
+	<body>
+		<header class="container-fluid">
+			<div id="container-logo">
+				<a href="#/"><img src="images/logo-speak-izy.png" alt="logo speak izy"></a>
+			</div>
+
+			<nav id="menu">
+				<ul id="ul-menu">
+					<li><a href="#/notre-approche" title="notre approche">notre approche</a></li>
+					<li><a href="#/qui-sommes-nous" title="qui sommes nous">qui sommes nous</a></li>
+					<li><a href="#" title="nos tuteurs">nos tuteurs</a></li>
+					<li><a href="#" title="devenez tuteur">devenez tuteur</a></li>
+					<li><a href="#/tarifs" title="tarifs">tarifs</a></li>
+				</ul>
+
+				<ul id="compte-menu">
+					<li><a href="#" title="créer un compte">Créer un compte</a></li><!--
+					--><li><a href="#/connexion" title="connexion">Connexion</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div ng-view></div>
+
+		<footer class="container-fluid">
+			<div class="col-xs-2">
+				<img src="images/logo-speak-izy.png" id="logo-footer" alt="logo speak izy">
+			</div>
+
+			<div class="col-xs-8">
+				<ul id="menu-footer" class="text-center">
+					<li><a href="">faq</a></li>
+					<li><a href="">condition générales</a></li>
+					<li><a href="">contact</a></li>
+				</ul>
+			</div>	
+
+			<div>
+				<ul id="ul-sociaux">
+					<li><a href=""><img src="images/logo-twitter.png"></a></li>
+					<li><a href=""><img src="images/logo-fb.png"></a></li>
+					<li><a href=""><img src="images/logo-gplus.png"></a></li>
+				</ul>
+			</div>		
+		</footer>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script type="text/javascript" src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
+		<!--<script type="text/javascript" src="scripts/app.js"></script>-->
+		<script type="text/javascript" src="scripts/controllers/routes.js"></script>
+	</body>
+</html>

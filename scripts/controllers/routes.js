@@ -11,6 +11,7 @@
 			.when('/reservations', {templateUrl: 'templates/reservations.html'})
 			.when('/connexion', {templateUrl: 'templates/connexion.html'})
 			.when('/dashboard', {templateUrl: 'templates/dashboard.html'})
+			.when('/pratique', {templateUrl: 'templates/pratique.html'})
 			.when('/on-boarding', {templateUrl: 'templates/on-boarding.html', controller: "etapeCtrl"})			
 			.otherwise({redirectTo: '/'});
 	}]);
@@ -25,6 +26,4 @@
 			}			
 		}				
 	});
-
-	
 })();

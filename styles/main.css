@@ -422,6 +422,55 @@ footer {
 	font-weight: bold;
 	color: #0d264b;
 }
+
+/****************************** PRATIQUE ********************************/
+
+#pratique {
+	margin-top: 115px;
+}
+
+#video-chat {
+	width: 100%;
+	height: auto;
+	border: solid 5px #2ea1c2;
+}
+
+#menu-chat {
+	padding: 0;
+	margin-top: 104px;
+	text-align: center;
+}
+
+#menu-chat p {
+	margin-top: 17px; 
+	text-transform: uppercase;
+	color: #092156;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#menu-chat li {
+	margin-top: 55px;
+}
+
+#pratique textarea {
+	height: 29px;
+	width: 100%;
+}
+
+#conversation {
+	height: 59px;
+	width: 100%;
+	border: solid 1px #787878;
+}
+
+#btn-send-tchat {
+	position: absolute;
+    right: 24px;
+    bottom: 8px;
+    border: none;
+    background: transparent;
+}
 /****************************** CONNEXION ********************************/
 
 #bg-header-connexion {

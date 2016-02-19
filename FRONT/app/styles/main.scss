@@ -1,0 +1,799 @@
+// bower:scss
+// endbower
+
+/***************** GLOBAL *****************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.display-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.blue {
+  color: #2ea1c2;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.maj {
+  text-transform: uppercase;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.btn-speak-izy {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  border: solid 1px #fff;
+  font-size: 14px;
+  height: 49px;
+  display: inline-block;
+  line-height: 49px;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+
+/***************** HEADER *****************/
+
+header {
+  width: 100%;
+  padding-top: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#container-logo, #menu {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#menu {
+  float: right;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+
+    li {
+      display: inline-block;
+      margin-right: 25px;
+
+      &:last-child {
+        display: inline-block;
+        margin-right: 0;
+      }
+    }
+  }
+
+  #compte-menu {
+    margin-left: 40px;
+
+    li{
+      margin: 0;
+
+      &:first-child {
+        height: 20px;
+        padding-right: 5px;
+        border-right: 1px solid #2ea1c2;
+      }
+
+      &:last-child {
+        height: 20px;
+        padding-left: 5px;
+      }
+
+      a {
+        color: #2ea1c2;
+        font-size: 12px;
+      }
+
+    }
+  }
+
+  #ul-menu {
+    li {
+      a {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+
+/*************************** HOME ****************************/
+
+#bg-header-home {
+  background-image: url('../images/bg-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 798px;
+
+  h1 {
+    color: #fff;
+    font-size: 71px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .btn-speak-izy {
+    margin-top: 100px;
+  }
+}
+
+
+/*************************** BECOME A TUTOR ****************************/
+
+#become-a-tutor {
+  height: 692px;
+  width: 100%;
+  background-image: url(../images/bg-become-a-tutor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .btn-speak-izy {
+    margin-top: 45px;
+  }
+
+  h2 {
+    font-size: 66px;
+    color: #fff;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+}
+
+
+.overlay-white {
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 65px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+
+  p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+
+
+
+
+
+/*************************** APPRENEZ N'IMPORTE OU ****************************/
+
+#apprenez {
+  width: 100%;
+  height: 790px;
+  background-image: url(../images/bg-apprenez.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h2 {
+    font-size: 42px;
+    color: #fff;
+    padding-top: 110px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 14px;
+    color: #fff;
+  }
+
+}
+
+
+#iphone6 {
+  margin-top: 233px;
+}
+
+.container-logo-device {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 20px;
+
+  li {
+    display: inline-block;
+    margin-right: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+
+    span {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+}
+
+
+/******************************* SPEAKIZY *****************************/
+
+#speakizy {
+  h1 {
+    padding-top: 116px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0d264b;
+  }
+}
+
+
+/************************** FOOTER *************************/
+
+footer {
+  height: 140px;
+  background-color: #0d264b;
+}
+
+#menu-footer {
+  margin-top: 62px;
+
+  li {
+    display: inline-block;
+    margin-right: 60px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      color: #fff;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#logo-footer {
+  margin-top: 28px;
+}
+
+#ul-sociaux {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 57px;
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+/****************************** NOTRE APPROCHE ********************************/
+
+.item-approche {
+  width: 100%;
+  height: 220px;
+  text-align: center;
+
+  h2{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  p {
+    font-size: 13px;
+    color: #fff;
+  }
+}
+
+
+.bg-1-approche {
+  background-image: url(../images/bg-notre-approche-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-2-approche {
+  background-image: url(../images/bg-notre-approche-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-3-approche {
+  background-image: url(../images/bg-notre-approche-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-4-approche {
+  background-image: url(../images/bg-notre-approche-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu-approche {
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  .btn-speak-izy {
+    height: 27px;
+    line-height: 27px;
+  }
+}
+
+
+#bg-header-notre-approche {
+  background-image: url('../images/bg-header-notre-approche.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+
+  h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 48px;
+    font-weight: 600;
+  }
+}
+
+
+/****************************** CONNEXION ********************************/
+
+#bg-header-connexion {
+  background-image: url('../images/bg-header-connexion.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+
+  h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 48px;
+    font-weight: 600;
+  }
+}
+
+#connexion {
+  padding-top: 62px;
+  padding-bottom: 100px;
+
+  .btn-speak-izy {
+    color: #0d264b;
+    border-color: #0d264b;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+}
+
+.container-input-compte {
+  margin-bottom: 34px;
+}
+
+.input-compte {
+  width: 100%;
+  height: 28px;
+  border: solid 1px #cdcdcd;
+  border-radius: 4px;
+}
+
+label {
+  color: #000;
+  font-weight: normal;
+}
+
+
+
+/****************************** TARIFS ********************************/
+
+#bg-header-tarifs {
+  background-image: url('../images/bg-header-tarifs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+
+  h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 48px;
+    font-weight: 600;
+  }
+}
+
+#tarifs {
+  margin-top: 120px;
+
+  h2 {
+    color: #0d264b;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .bloc-tarifs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0d264b;
+    color: #fff;
+    min-height: 145px;
+
+    p {
+      font-size: 12px;
+      margin-top: 20px;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 55px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+      color: #fff;
+      font-size: 24px;
+      padding-right: 6px;
+      padding-left: 6px;
+      border: solid 1px #0d264b;
+
+      &:hover {
+        border: solid 1px #2ea1c2;
+        color: #2ea1c2;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .btn-speak-izy {
+    color: #0d264b;
+    border-color: #0d264b;
+    margin-top: 60px;
+    margin-bottom: 120px;
+  }
+}
+
+
+
+
+/****************************** ON BOARDING ********************************/
+
+#on-boarding {
+  margin-top: 100px;
+
+  .etape-boarding {
+    font-size: 80px;
+    color: #2ea1c2;
+    font-weight: 600;
+    width: 314px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-border-image: url(../images/border-bottom.png) 0 0 1 0; /* Safari 3.1-5 */
+    -o-border-image: url(../images/border-bottom.png) 0 0 1 0; /* Opera 11-12.1 */
+    border-image: url(../images/border-bottom.png) 0 0 1 0;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #0d264b;
+    margin-top: 45px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+
+.votre-choix {
+  display: inline-block;
+  margin-right: 90px;
+  font-size: 13.5px;
+  color: #0d264b;
+  cursor: pointer;
+  padding-right: 6px;
+  padding-left: 6px;
+  border: solid 1px #fff;
+  margin-bottom: 40px;
+
+  &:hover {
+    border: solid 1px #2ea1c2;
+    color: #2ea1c2;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.select-etape {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: solid 1px #2ea1c2;
+  display: inline-block;
+  margin-right: 27px;
+  margin-bottom: 60px;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0
+  }
+}
+
+.ul-votre-choix {
+  margin-top: 74px !important;
+  margin-bottom: 129px !important;
+}
+
+.focus-etape {
+  background-color: #2ea1c2;
+}
+
+
+.bloc-item-choix {
+  width: 125px;
+  height: 121px;
+  border: solid 1px #fff;
+  text-align: center;
+  font-size: 13px;
+  color: #0d264b;
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    border: solid 1px #2ea1c2;
+    color: #2ea1c2;
+  }
+}
+
+.container-bloc-item-choix {
+  margin-bottom: 70px;
+}
+
+.first-container {
+  margin-top: 50px;
+}
+
+.etapes {
+  display: none;
+}
+
+#etape-1 {
+  display: block;
+}
+
+.focusEtapes {
+  display: block !important;
+}
+
+/****************************** RESERVATIONS ********************************/
+
+#reservations {
+  margin-top: 55px;
+  margin-bottom: 72px;
+
+  h2 {
+    font-size: 24px;
+    color: #092156;
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
+
+  p {
+    color: #092156;
+    font-size: 14px;
+    margin-bottom: 70px;
+  }
+
+  .btn-speak-izy {
+    color: #092156;
+    border-color: #092156;
+  }
+}
+
+.cadre-photo {
+  position: relative;
+  margin-bottom: 10px;
+
+  img{
+    border: solid 2px #6d6d6d;
+  }
+}
+
+
+.infos-picture {
+  width: 100%;
+  height: 43px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding-left: 9px;
+  font-size: 12px;
+  color: #fff;
+}
+
+
+/****************************** DASHBOARD ********************************/
+
+#bg-dashboard {
+  background-image: url('../images/bg-dashboard.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 672px;
+}
+
+.bloc-minutes {
+  margin-top: 275px;
+  color: #fff;
+}
+
+.minutes {
+  font-size: 130px;
+  color: #2ea1c2;
+  font-weight: 600;
+  line-height: 110px;
+}
+
+
+
+#dashboard {
+  margin-top: 58px;
+  margin-bottom: 125px;
+
+  .btn-speak-izy {
+    margin-top: 65px;
+  }
+
+  h1 {
+    font-size: 46px;
+    color: #0d264b;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: #0d264b;
+    margin-top: 38px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+  }
+}
+
+.en-ligne{
+  img {
+    border-color: #34ad65;
+  }
+}
+
+.occupe  {
+  img {
+    border-color: #ec4e1b;
+  }
+}
+
+.hl  {
+  img {
+    border-color: #8a002b;
+  }
+}
+.bloc-tuteurs {
+  margin-bottom: 62px;
+}
+
+
+/****************************** PRATIQUE ********************************/
+
+#pratique {
+  margin-top: 115px;
+}
+
+#video-chat {
+  width: 100%;
+  height: auto;
+  border: solid 5px #2ea1c2;
+}
+
+#menu-chat {
+  padding: 0;
+  margin-top: 104px;
+  text-align: center;
+
+  p {
+    margin-top: 17px;
+    text-transform: uppercase;
+    color: #092156;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  li {
+    margin-top: 55px;
+  }
+}
+
+
+#pratique {
+  textarea {
+    height: 29px;
+    width: 100%;
+  }
+}
+
+#conversation {
+  height: 59px;
+  width: 100%;
+  border: solid 1px #787878;
+}
+
+#btn-send-tchat {
+  position: absolute;
+  right: 24px;
+  bottom: 8px;
+  border: none;
+  background: transparent;
+}

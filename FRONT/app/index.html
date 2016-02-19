@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="speakizyApp">
+  <header class="container-fluid">
+      <div id="container-logo">
+         <!--  <a href="#/"><img src="images/logo-speak-izy.png" alt="logo speak izy"></a> -->
+          <a href="#/"><img src="images/logo-speak-izy-2.png" alt="logo speak izy"></a>
+      </div>
+
+      <nav id="menu">
+          <ul id="ul-menu">
+              <li><a href="#/notre-approche" title="notre approche">notre approche</a></li>
+              <li><a href="#/qui-sommes-nous" title="qui sommes nous">qui sommes nous</a></li>
+              <li><a href="#/" title="nos tuteurs">nos tuteurs</a></li>
+              <li><a href="#/" title="devenez tuteur">devenez tuteur</a></li>
+              <li><a href="#/nos-tarifs" title="tarifs">tarifs</a></li>
+          </ul>
+
+          <ul id="compte-menu">
+              <li><a href="#/on-boarding" title="créer un compte">Créer un compte</a></li><!--
+					--><li><a href="#/connexion" title="connexion">Connexion</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <div ng-view></div>
+
+  <footer class="container-fluid">
+      <div class="col-xs-2">
+          <img src="images/logo-speak-izy.png" id="logo-footer" alt="logo speak izy">
+      </div>
+
+      <div class="col-xs-8">
+          <ul id="menu-footer" class="text-center">
+              <li><a href="">faq</a></li>
+              <li><a href="">condition générales</a></li>
+              <li><a href="">contact</a></li>
+          </ul>
+      </div>
+
+      <div>
+          <ul id="ul-sociaux">
+              <li><a href=""><img src="images/logo-twitter.png"></a></li>
+              <li><a href=""><img src="images/logo-fb.png"></a></li>
+              <li><a href=""><img src="images/logo-gplus.png"></a></li>
+          </ul>
+      </div>
+  </footer>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+   <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/db.js"></script>
+        <script src="scripts/controllers/routes.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

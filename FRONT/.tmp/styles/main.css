@@ -372,8 +372,18 @@ footer {
   font-weight: 600;
 }
 
+/****************************** REGISTRATION ********************************/
+/* line 380, ../../app/styles/main.scss */
+#registration-tutor .btn-speak-izy {
+  color: #0d264b;
+  border-color: #0d264b;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
 /****************************** CONNEXION ********************************/
-/* line 381, ../../app/styles/main.scss */
+/* line 391, ../../app/styles/main.scss */
 #bg-header-connexion {
   background-image: url("../images/bg-header-connexion.jpg");
   background-repeat: no-repeat;
@@ -381,7 +391,7 @@ footer {
   width: 100%;
   height: 280px;
 }
-/* line 388, ../../app/styles/main.scss */
+/* line 398, ../../app/styles/main.scss */
 #bg-header-connexion h1 {
   text-transform: uppercase;
   color: #fff;
@@ -391,12 +401,12 @@ footer {
   font-weight: 600;
 }
 
-/* line 398, ../../app/styles/main.scss */
+/* line 408, ../../app/styles/main.scss */
 #connexion {
   padding-top: 62px;
   padding-bottom: 100px;
 }
-/* line 402, ../../app/styles/main.scss */
+/* line 412, ../../app/styles/main.scss */
 #connexion .btn-speak-izy {
   color: #0d264b;
   border-color: #0d264b;
@@ -405,12 +415,12 @@ footer {
   margin-top: 30px;
 }
 
-/* line 411, ../../app/styles/main.scss */
+/* line 421, ../../app/styles/main.scss */
 .container-input-compte {
   margin-bottom: 34px;
 }
 
-/* line 415, ../../app/styles/main.scss */
+/* line 425, ../../app/styles/main.scss */
 .input-compte {
   width: 100%;
   height: 28px;
@@ -418,14 +428,14 @@ footer {
   border-radius: 4px;
 }
 
-/* line 422, ../../app/styles/main.scss */
+/* line 432, ../../app/styles/main.scss */
 label {
   color: #000;
   font-weight: normal;
 }
 
 /****************************** TARIFS ********************************/
-/* line 431, ../../app/styles/main.scss */
+/* line 441, ../../app/styles/main.scss */
 #bg-header-tarifs {
   background-image: url("../images/bg-header-tarifs.jpg");
   background-repeat: no-repeat;
@@ -433,7 +443,7 @@ label {
   width: 100%;
   height: 280px;
 }
-/* line 438, ../../app/styles/main.scss */
+/* line 448, ../../app/styles/main.scss */
 #bg-header-tarifs h1 {
   text-transform: uppercase;
   color: #fff;
@@ -443,18 +453,18 @@ label {
   font-weight: 600;
 }
 
-/* line 448, ../../app/styles/main.scss */
+/* line 458, ../../app/styles/main.scss */
 #tarifs {
   margin-top: 120px;
 }
-/* line 451, ../../app/styles/main.scss */
+/* line 461, ../../app/styles/main.scss */
 #tarifs h2 {
   color: #0d264b;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 458, ../../app/styles/main.scss */
+/* line 468, ../../app/styles/main.scss */
 #tarifs .bloc-tarifs {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -462,28 +472,28 @@ label {
   color: #fff;
   min-height: 145px;
 }
-/* line 465, ../../app/styles/main.scss */
+/* line 475, ../../app/styles/main.scss */
 #tarifs .bloc-tarifs p {
   font-size: 12px;
   margin-top: 20px;
 }
-/* line 471, ../../app/styles/main.scss */
+/* line 481, ../../app/styles/main.scss */
 #tarifs ul {
   padding: 0;
   margin: 0;
   list-style: none;
   text-align: center;
 }
-/* line 478, ../../app/styles/main.scss */
+/* line 488, ../../app/styles/main.scss */
 #tarifs li {
   display: inline-block;
   margin-right: 55px;
 }
-/* line 482, ../../app/styles/main.scss */
+/* line 492, ../../app/styles/main.scss */
 #tarifs li:last-child {
   margin-right: 0;
 }
-/* line 486, ../../app/styles/main.scss */
+/* line 496, ../../app/styles/main.scss */
 #tarifs li a {
   display: block;
   color: #fff;
@@ -492,13 +502,13 @@ label {
   padding-left: 6px;
   border: solid 1px #0d264b;
 }
-/* line 494, ../../app/styles/main.scss */
+/* line 504, ../../app/styles/main.scss */
 #tarifs li a:hover {
   border: solid 1px #2ea1c2;
   color: #2ea1c2;
   text-decoration: none;
 }
-/* line 502, ../../app/styles/main.scss */
+/* line 512, ../../app/styles/main.scss */
 #tarifs .btn-speak-izy {
   color: #0d264b;
   border-color: #0d264b;
@@ -507,11 +517,11 @@ label {
 }
 
 /****************************** ON BOARDING ********************************/
-/* line 515, ../../app/styles/main.scss */
+/* line 525, ../../app/styles/main.scss */
 #on-boarding {
   margin-top: 100px;
 }
-/* line 518, ../../app/styles/main.scss */
+/* line 528, ../../app/styles/main.scss */
 #on-boarding .etape-boarding {
   font-size: 80px;
   color: #2ea1c2;
@@ -523,13 +533,13 @@ label {
   /* Opera 11-12.1 */
   border-image: url(../images/border-bottom.png) 0 0 1 0;
 }
-/* line 530, ../../app/styles/main.scss */
+/* line 540, ../../app/styles/main.scss */
 #on-boarding h2 {
   font-size: 20px;
   color: #0d264b;
   margin-top: 45px;
 }
-/* line 536, ../../app/styles/main.scss */
+/* line 546, ../../app/styles/main.scss */
 #on-boarding ul {
   list-style: none;
   padding: 0;
@@ -537,7 +547,7 @@ label {
   text-align: center;
 }
 
-/* line 545, ../../app/styles/main.scss */
+/* line 555, ../../app/styles/main.scss */
 .votre-choix {
   display: inline-block;
   margin-right: 90px;
@@ -549,17 +559,17 @@ label {
   border: solid 1px #fff;
   margin-bottom: 40px;
 }
-/* line 556, ../../app/styles/main.scss */
+/* line 566, ../../app/styles/main.scss */
 .votre-choix:hover {
   border: solid 1px #2ea1c2;
   color: #2ea1c2;
 }
-/* line 561, ../../app/styles/main.scss */
+/* line 571, ../../app/styles/main.scss */
 .votre-choix:last-child {
   margin-right: 0;
 }
 
-/* line 566, ../../app/styles/main.scss */
+/* line 576, ../../app/styles/main.scss */
 .select-etape {
   width: 20px;
   height: 20px;
@@ -570,23 +580,23 @@ label {
   margin-bottom: 60px;
   cursor: pointer;
 }
-/* line 576, ../../app/styles/main.scss */
+/* line 586, ../../app/styles/main.scss */
 .select-etape:last-child {
   margin-right: 0;
 }
 
-/* line 581, ../../app/styles/main.scss */
+/* line 591, ../../app/styles/main.scss */
 .ul-votre-choix {
   margin-top: 74px !important;
   margin-bottom: 129px !important;
 }
 
-/* line 586, ../../app/styles/main.scss */
+/* line 596, ../../app/styles/main.scss */
 .focus-etape {
   background-color: #2ea1c2;
 }
 
-/* line 591, ../../app/styles/main.scss */
+/* line 601, ../../app/styles/main.scss */
 .bloc-item-choix {
   width: 125px;
   height: 121px;
@@ -595,78 +605,73 @@ label {
   font-size: 13px;
   color: #0d264b;
 }
-/* line 599, ../../app/styles/main.scss */
+/* line 609, ../../app/styles/main.scss */
 .bloc-item-choix p {
   margin-top: 20px;
   margin-bottom: 0;
 }
-/* line 604, ../../app/styles/main.scss */
+/* line 614, ../../app/styles/main.scss */
 .bloc-item-choix:hover {
   border: solid 1px #2ea1c2;
   color: #2ea1c2;
 }
 
-/* line 610, ../../app/styles/main.scss */
+/* line 620, ../../app/styles/main.scss */
 .container-bloc-item-choix {
   margin-bottom: 70px;
 }
 
-/* line 614, ../../app/styles/main.scss */
+/* line 624, ../../app/styles/main.scss */
 .first-container {
   margin-top: 50px;
 }
 
-/* line 618, ../../app/styles/main.scss */
+/* line 628, ../../app/styles/main.scss */
 .etapes {
   display: none;
 }
 
-/* line 622, ../../app/styles/main.scss */
-#etape-1 {
-  display: block;
-}
-
-/* line 626, ../../app/styles/main.scss */
+/* line 633, ../../app/styles/main.scss */
 .focusEtapes {
   display: block !important;
 }
 
 /****************************** RESERVATIONS ********************************/
-/* line 632, ../../app/styles/main.scss */
+/* line 639, ../../app/styles/main.scss */
 #reservations {
   margin-top: 55px;
   margin-bottom: 72px;
 }
-/* line 636, ../../app/styles/main.scss */
+/* line 643, ../../app/styles/main.scss */
 #reservations h2 {
   font-size: 24px;
   color: #092156;
   margin-bottom: 25px;
   margin-top: 0;
 }
-/* line 643, ../../app/styles/main.scss */
+/* line 650, ../../app/styles/main.scss */
 #reservations p {
   color: #092156;
   font-size: 14px;
   margin-bottom: 70px;
 }
-/* line 649, ../../app/styles/main.scss */
+/* line 656, ../../app/styles/main.scss */
 #reservations .btn-speak-izy {
   color: #092156;
   border-color: #092156;
 }
 
-/* line 655, ../../app/styles/main.scss */
+/* line 662, ../../app/styles/main.scss */
 .cadre-photo {
   position: relative;
   margin-bottom: 10px;
 }
-/* line 659, ../../app/styles/main.scss */
+/* line 666, ../../app/styles/main.scss */
 .cadre-photo img {
   border: solid 2px #6d6d6d;
 }
 
-/* line 665, ../../app/styles/main.scss */
+/* line 672, ../../app/styles/main.scss */
 .infos-picture {
   width: 100%;
   height: 43px;
@@ -679,7 +684,7 @@ label {
 }
 
 /****************************** DASHBOARD ********************************/
-/* line 679, ../../app/styles/main.scss */
+/* line 686, ../../app/styles/main.scss */
 #bg-dashboard {
   background-image: url("../images/bg-dashboard.jpg");
   background-repeat: no-repeat;
@@ -688,13 +693,13 @@ label {
   height: 672px;
 }
 
-/* line 687, ../../app/styles/main.scss */
+/* line 694, ../../app/styles/main.scss */
 .bloc-minutes {
   margin-top: 275px;
   color: #fff;
 }
 
-/* line 692, ../../app/styles/main.scss */
+/* line 699, ../../app/styles/main.scss */
 .minutes {
   font-size: 130px;
   color: #2ea1c2;
@@ -702,16 +707,16 @@ label {
   line-height: 110px;
 }
 
-/* line 701, ../../app/styles/main.scss */
+/* line 708, ../../app/styles/main.scss */
 #dashboard {
   margin-top: 58px;
   margin-bottom: 125px;
 }
-/* line 705, ../../app/styles/main.scss */
+/* line 712, ../../app/styles/main.scss */
 #dashboard .btn-speak-izy {
   margin-top: 65px;
 }
-/* line 709, ../../app/styles/main.scss */
+/* line 716, ../../app/styles/main.scss */
 #dashboard h1 {
   font-size: 46px;
   color: #0d264b;
@@ -719,7 +724,7 @@ label {
   margin: 0;
   text-align: center;
 }
-/* line 717, ../../app/styles/main.scss */
+/* line 724, ../../app/styles/main.scss */
 #dashboard h2 {
   font-size: 30px;
   color: #0d264b;
@@ -730,46 +735,46 @@ label {
   text-transform: uppercase;
 }
 
-/* line 729, ../../app/styles/main.scss */
+/* line 736, ../../app/styles/main.scss */
 .en-ligne img {
   border-color: #34ad65;
 }
 
-/* line 735, ../../app/styles/main.scss */
+/* line 742, ../../app/styles/main.scss */
 .occupe img {
   border-color: #ec4e1b;
 }
 
-/* line 741, ../../app/styles/main.scss */
+/* line 748, ../../app/styles/main.scss */
 .hl img {
   border-color: #8a002b;
 }
 
-/* line 745, ../../app/styles/main.scss */
+/* line 752, ../../app/styles/main.scss */
 .bloc-tuteurs {
   margin-bottom: 62px;
 }
 
 /****************************** PRATIQUE ********************************/
-/* line 752, ../../app/styles/main.scss */
+/* line 759, ../../app/styles/main.scss */
 #pratique {
   margin-top: 115px;
 }
 
-/* line 756, ../../app/styles/main.scss */
+/* line 763, ../../app/styles/main.scss */
 #video-chat {
   width: 100%;
   height: auto;
   border: solid 5px #2ea1c2;
 }
 
-/* line 762, ../../app/styles/main.scss */
+/* line 769, ../../app/styles/main.scss */
 #menu-chat {
   padding: 0;
   margin-top: 104px;
   text-align: center;
 }
-/* line 767, ../../app/styles/main.scss */
+/* line 774, ../../app/styles/main.scss */
 #menu-chat p {
   margin-top: 17px;
   text-transform: uppercase;
@@ -777,25 +782,25 @@ label {
   font-size: 12px;
   font-weight: bold;
 }
-/* line 774, ../../app/styles/main.scss */
+/* line 781, ../../app/styles/main.scss */
 #menu-chat li {
   margin-top: 55px;
 }
 
-/* line 781, ../../app/styles/main.scss */
+/* line 788, ../../app/styles/main.scss */
 #pratique textarea {
   height: 29px;
   width: 100%;
 }
 
-/* line 787, ../../app/styles/main.scss */
+/* line 794, ../../app/styles/main.scss */
 #conversation {
   height: 59px;
   width: 100%;
   border: solid 1px #787878;
 }
 
-/* line 793, ../../app/styles/main.scss */
+/* line 800, ../../app/styles/main.scss */
 #btn-send-tchat {
   position: absolute;
   right: 24px;
